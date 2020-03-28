@@ -1,0 +1,40 @@
+ table{ 
+ width:700px;
+ background-color: #957959;
+ }
+.green{
+ color:#388457;
+ padding-left: 190px;
+}
+.btn{
+  border: 1px solid #367648;
+  background-color: #664786;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  color: #085378;
+  transition: 0.8s;
+  overflow: hidden;
+}
+.btn:hover{
+ color: #995689;
+}
+.btn::before{
+  content: * *;
+  position: absolute;
+  left: 0;
+  width:100%;
+  height: 0%;
+  background: #854763;
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn:hover::before{
+  height: 100%;
+}
+ b{ 
+  color: #264758;
+ }
